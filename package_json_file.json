@@ -1,0 +1,21 @@
+{
+  "name": "slack-hr-bot",
+  "version": "1.0.0",
+  "description": "HR knowledge bot for Slack with Notion integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "@notionhq/client": "^2.2.15",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["slack", "bot", "hr", "notion"],
+  "author": "Your Company",
+  "license": "MIT"
+}
