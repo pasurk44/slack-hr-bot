@@ -192,7 +192,7 @@ app.event('app_mention', async ({ event, say }) => {
 });
 
 // Health check endpoint for Render
-app.receiver.app.get('/health', (req, res) => {
+app.receiver.router.get('/health', (req, res) => {
   res.status(200).send('OK');
 });
 
